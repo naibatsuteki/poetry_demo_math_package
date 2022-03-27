@@ -1,4 +1,4 @@
-from pdmp.core import add, substruct
+from pdmp.core import add, substract
 
 
 def test_add():
@@ -12,4 +12,4 @@ def test_substract():
     input_1 = 15
     input_2 = 10
     expected = 5
-    assert expected == substruct(input_1, input_2)
+    assert expected == substract(input_1, input_2)

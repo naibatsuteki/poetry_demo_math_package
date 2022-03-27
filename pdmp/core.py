@@ -3,5 +3,5 @@ from typing import Union
 def add(a : Union[int,float],b: Union[int,float]) -> Union[int,float]:
     return a + b
 
-def substruct(a : Union[int,float],b: Union[int,float]) -> Union[int,float]:
+def substract(a : Union[int,float],b: Union[int,float]) -> Union[int,float]:
     return a - b
